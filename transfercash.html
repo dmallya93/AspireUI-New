@@ -93,6 +93,7 @@ function selfaccount()
 		"remarks":document.getElementById("self_remark").value
 	}
 	var dataString = JSON.stringify(postdata);
+	alert(dataString);
 	$.ajax({
 		type: "POST",
 		dataType: "json",
